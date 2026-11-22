@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pillow AI</string>
+    <string name="app_short">Pillow</string>
+    <string name="tagline">AI untuk para pemecah masalah</string>
+    <string name="email_hint">Masukkan email Anda</string>
+    <string name="email_invalid">Masukkan alamat email yang valid</string>
+    <string name="terms">Dengan melanjutkan, Anda menyetujui Ketentuan Konsumen dan Kebijakan Penggunaan, serta menyatakan telah mengetahui Kebijakan Privasi.</string>
+    <string name="greeting">Ada yang bisa dibantu hari ini?</string>
+    <string name="reply_hint">Balas ke Pillow</string>
+    <string name="copy">Salin</string>
+    <string name="copied">Disalin</string>
+    <string name="profile">Profil</string>
+    <string name="change_photo">Ganti foto untuk perangkat ini</string>
+    <string name="remove_photo">Hapus foto perangkat ini</string>
+    <string name="devices">Perangkat pada akun ini</string>
+    <string name="this_device">Perangkat ini</string>
+    <string name="logout">Keluar</string>
+    <string name="photo_failed">Gagal memproses foto</string>
+    <string name="new_chat">Obrolan baru</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#FAF9F5</color>
+    <color name="ink">#141413</color>
+    <color name="ink_soft">#6B6A64</color>
+    <color name="accent">#D97757</color>
+    <color name="accent_dark">#C2603F</color>
+    <color name="accent_light">#F7E4DC</color>
+    <color name="user_bubble">#F0EEE6</color>
+    <color name="border">#E3E0D6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="code_bg">#1F1E1D</color>
+    <color name="code_header">#2B2A28</color>
+    <color name="code_text">#E8E6DC</color>
+    <color name="code_label">#A8A69C</color>
+</resources>
