@@ -12,11 +12,15 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
-      - uses: android-actions/setup-android@v3
+      - name: Android SDK
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-34" "build-tools;34.0.0"
       - uses: gradle/actions/setup-gradle@v3
         with:
           gradle-version: 8.5
-      - run: |
+      - name: Config
+        run: |
           echo "API_URL=https://mution.tech/v1/messages" > local.properties
           echo "API_KEY=${{ secrets.API_KEY }}" >> local.properties
           echo "MODEL=claude-opus-4-8" >> local.properties
